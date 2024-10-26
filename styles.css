@@ -1,0 +1,38 @@
+body {
+    width: 1440px;
+    height: 1056px;
+    font-family: 'Figtree';
+    font-size: 16px;
+}
+
+.outside-container {
+    background-color: hsl(47, 88%, 63%);
+    width: 900px;
+    height: 900px;
+}
+
+img {
+    justify-content: center;
+    border-radius: 10px;
+}
+
+button {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    font-weight: bold;
+}
+
+.profile-card {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+}
+
+.image-head {
+    display: inline;
+}
+
+.small-profile {
+    width: 20px;
+    height: 20px;
+}
