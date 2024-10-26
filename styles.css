@@ -9,20 +9,11 @@ body {
     max-width: 1440px;
     height: 100vh;
     margin: auto;
-    
+    background-color: hsl(47, 88%, 63%);
     
 }
 
-.outside-container {
-    background-color: hsl(47, 88%, 63%);
-    width: 1440px;
-    height: 620px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 15px 19px grey;
-    
-}
+
 
  
 .abstract-image {
@@ -33,13 +24,15 @@ body {
     max-width: 100%;
 }
 
-button {
+.looks-like-a-button {
     background-color: hsl(47, 88%, 63%);
-    border: none;
+    width: 55px;
     font-weight: bold;
     border-radius: 3px;
-    padding: 5px 7px 5px 7px;
+    padding: 5px 5px 5px 5px;
     font-size: 12px;
+    text-align: center;
+    
 
     
 }
@@ -51,8 +44,7 @@ button {
 }
 
 .profile-card {
-    width: 280px;
-    height: 360px;
+    max-width: 280px;
     background-color: white;
     border-radius: 10px;
     border: 1px, black, double;
