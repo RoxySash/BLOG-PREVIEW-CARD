@@ -19,34 +19,38 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+This blog preview card was challenging because I had to use a lot of flexbox on the elements.
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://roxysash.github.io/BLOG-PREVIEW-CARD/)
+- Live Site URL: (https://github.com/RoxySash/BLOG-PREVIEW-CARD.git)
 
 ## My process
 
+1. Initialized project as a public repository 
+2. Configured repository to publish your code to a web address. 
+3. Looked through the designs to started planning. 
+4. Wrote HTML first then added CSS.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Started adding styles to the top of the page and worked down. Jumped back and forth for a while.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+
 
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned that i could use two divs then use flexbox on those two divs to align them.
+
+For the below code snippet I was trying to get the abstract image to resize according to the container its in. I realized that using max-width at 100% would acheive this and I didnt need to add a width and height mostly becuase the width and heigh is already given.
 
 To see how you can add code snippets, see below:
 
@@ -61,36 +65,22 @@ To see how you can add code snippets, see below:
     margin-bottom: 10px;
     max-width: 100%;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I am not confident in using css flexbox
+I am not confident in matching original size of the design 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@RoxySash](https://www.frontendmentor.io/profile/RoxySash)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
