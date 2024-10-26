@@ -54,8 +54,12 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.abstract-image {
+    
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    max-width: 100%;
 }
 ```
 ```js

@@ -1,38 +1,95 @@
 body {
-    width: 1440px;
-    height: 1056px;
+    
     font-family: 'Figtree';
     font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    
+    
 }
 
 .outside-container {
     background-color: hsl(47, 88%, 63%);
-    width: 900px;
-    height: 900px;
+    width: 1440px;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 19px grey;
+    
 }
 
-img {
-    justify-content: center;
+ 
+.abstract-image {
+    
     border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    max-width: 100%;
 }
 
 button {
     background-color: hsl(47, 88%, 63%);
     border: none;
     font-weight: bold;
+    border-radius: 3px;
+    padding: 5px 7px 5px 7px;
+    font-size: 12px;
+
+    
+}
+
+.publish-word {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(63, 62, 62);
 }
 
 .profile-card {
-    width: 350px;
-    height: 500px;
+    width: 280px;
+    height: 360px;
     background-color: white;
+    border-radius: 10px;
+    border: 1px, black, double;
+    box-shadow: 5px 5px 0px black;
+    padding: 15px 15px 15px 15px;
+    
+
 }
 
-.image-head {
-    display: inline;
+.image-head-name {
+   font-size: 12px;
+   font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box2 {
+    
+    padding-left: 10px;
 }
 
 .small-profile {
     width: 20px;
     height: 20px;
+    
 }
+
+h1 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.paragraph-greyed {
+    font-size: 12px;
+    color: rgb(141, 138, 138);
+    font-weight: 400;
+}
+
